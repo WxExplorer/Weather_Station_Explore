@@ -2,8 +2,8 @@ import numpy as np
 from pandas import DataFrame
 import pandas as pd
 
-#This program organizes the weather stations data dump and sorts it out into daily csv files.
-
+"""This program inputs raw data dumps from my personal weather station and sorts them out into 
+the appropriate data fields. Output is daily .csv files."""
 
 swt = True
 while swt == True:
