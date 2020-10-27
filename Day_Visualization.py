@@ -3,8 +3,8 @@ import matplotlib.pyplot as plt
 from pandas import DataFrame
 import pandas as pd
 
-"""This program inputes a daily weather data, headers included, and greats two graphs visualizing the data (Temp and RH, Gusts and Pressure).
-Included in the program is check on valid wind gusts, where invalid measurements are written as nan.
+"""This program inputs daily weather data, headers included, and creates two graphs visualizing the data (Temp and RH, Gusts and Pressure).
+The program also checks on valid wind gusts, where invalid measurements are written as nan.
 Current version stores the daily stats, but needs them stored for later use."""
 
 #----------user inpute for the .csv file--------------------------------------
