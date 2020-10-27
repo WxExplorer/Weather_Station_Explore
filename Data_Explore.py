@@ -22,7 +22,7 @@ while swt == True:
                 hdl = line[x].split(';')
                 data[y].append(hdl[y])
 
-        u_dates = np.unique(Date)  #collects each data the file had, used to create individual dataframes
+        u_dates = np.unique(Date)  #collects each date the file had, used to create individual dataframes
 
         #creates daily dataframes than saves them to a csv, labeling them by each day.
 
